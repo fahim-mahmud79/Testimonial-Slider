@@ -1,0 +1,41 @@
+.carousel-indicators{
+    position: relative;
+}
+
+.items img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+}
+.items{
+    max-width: 700px;
+    margin: auto;
+}
+.stars i{
+    font-size: 1.4rem;
+    color: red;
+    padding: 0.3rem;
+}
+.stars{
+    margin-bottom: 1.3rem;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: red;
+    font-size: 1.3rem;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: red;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
